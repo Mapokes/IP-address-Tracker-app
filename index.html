@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+
+    <title>IP Address Tracker</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <main>
+      <header>
+        <h1>IP Address Tracker <a href="https://cors-anywhere.herokuapp.com/" target="_blank">->Proxy access<-</a></h1>
+        <div class="input-bar">
+          <input type="text" name="inputBar" id="user-input" placeholder="Search for any IP address or domain" />
+          <button id="submit-btn">
+            <img src="./images/icon-arrow.svg" alt="arrow-icon" />
+          </button>
+        </div>
+      </header>
+      <section>
+        <div class="nav-container ip-box">
+          <p>IP Address</p>
+          <h2 class="ip-adress">IP adress</h2>
+        </div>
+        <div class="nav-container location-box">
+          <p>Location</p>
+          <h2 class="location">London</h2>
+        </div>
+        <div class="nav-container time-box">
+          <p>Timezone</p>
+          <h2 class="timezone">UTC +01:00</h2>
+        </div>
+        <div class="nav-container isp-box">
+          <p>ISP</p>
+          <h2 class="isp">Isp Name</h2>
+        </div>
+      </section>
+    </main>
+    <div id="map"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
