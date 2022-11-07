@@ -1,6 +1,6 @@
 # IP-address Tracker app
 
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
+This is solution by Mapokes to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
 ## Table of contents
 
@@ -49,5 +49,5 @@ Users are able to:
 ## Author
 
 Solution made by Mapokes
-- Website - https://github.com/Mapokes
-- Frontend Mentor - https://www.frontendmentor.io/profile/Mapokes
+
+- Github - https://github.com/Mapokes
